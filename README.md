@@ -13,7 +13,7 @@ conda install cudatoolkit=11.8 # 适合pytorch: 2.0.0，2.0.1，2.1.0，2.1.1，
 pip install xformers==0.0.23
 ```
 
-### xformers对应torch版本
+### xformers对应torch版本 （选配）
 ```
 xformers	 pytorch
 0.0.26.post1  torch==2.3.0
@@ -28,7 +28,7 @@ xformers	 pytorch
 0.0.17	       torch==2.0.0
 0.0.16	       torch==1.13.1
 ```
-### 安装deepspeed
+### 安装deepspeed （选配）
 ```
 pip install deepspeed
 # 当安装报错：FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/cuda-11.7/bin/nvcc'时
